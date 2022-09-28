@@ -1,0 +1,74 @@
+---
+title: "Min's Presentation"
+author: 
+  - "Min Zeng"
+date: 'October 1, 2022'
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    nature:
+      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: true
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width=9, fig.height=3.5, fig.retina=3,
+  out.width = "100%",
+  cache = FALSE,
+  echo = TRUE,
+  message = FALSE, 
+  warning = FALSE,
+  hiline = TRUE
+)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_duo_accent(
+  primary_color = "#E0E0E0",
+  secondary_color = "#FFCCE5",
+  inverse_header_color = "#CCCCFF"
+)
+```
+
+## Hi!
+
+### Hello World
+
+This is Min.
+
+- I want to become an NLP engineer.
+
+- Currently learning computational linguistics in UBC. 
+
+- Hope my dream can come true!
+
+---
+name: colors
+
+
+## Blocks
+
+### Interests
+
+Games
+---
+
+
+### Code Blocks
+
+#### R Code
+
+```{r eval=FALSE}
+min_massage <- "hello world"
+min_massage
+```
+
+#### R Code
+
+## Thank you!!!! 
